@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(35, 34, 34);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 40%;
+    max-width: 600px;
+}
+
+.contact__title{
+    font-size: 2rem;
+    font-weight: var(--font-semi);
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(244, 203, 22);
+}
+.contact__form{
+    width: 100%;
+    height: 100%;
+    background: rgb(40, 37, 37);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(244, 203, 22);
+}
+.contact__input {
+    width: 40%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 4px solid rgb(72, 63, 63);
+    outline: none;
+    margin-bottom: 1rem;
+    
+}
+
+.btn{
+    width: 40%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 4px solid rgb(72, 63, 63);
+    outline: none;
+    margin-bottom: 1rem;
+    background: rgb(244, 203, 22);
+    color: rgb(40, 37, 37);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
